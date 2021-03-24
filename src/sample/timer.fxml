@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.layout.*?>
+<Pane fx:controller="sample.TimerController" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Text fx:id="txtMin" layoutX="131.0" layoutY="135.0" strokeType="OUTSIDE" strokeWidth="0.0" text="00" textAlignment="CENTER" wrappingWidth="114.6708984375">
+         <font>
+            <Font size="48.0" />
+         </font>
+      </Text>
+      <Text fx:id="txtSec" layoutX="339.0" layoutY="134.0" strokeType="OUTSIDE" strokeWidth="0.0" text="00" textAlignment="CENTER" wrappingWidth="114.6708984375">
+         <font>
+            <Font size="48.0" />
+         </font>
+      </Text>
+      <Text layoutX="286.0" layoutY="131.0" strokeType="OUTSIDE" strokeWidth="0.0" text=":" textAlignment="CENTER" wrappingWidth="27.251953125">
+         <font>
+            <Font size="68.0" />
+         </font>
+      </Text>
+      <Button onAction="#startTimer" layoutX="255.0" layoutY="237.0" mnemonicParsing="false" prefHeight="55.0" prefWidth="90.0" text="Start">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Button>
+   </children>
+</Pane>
