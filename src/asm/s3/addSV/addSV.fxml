@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<Pane fx:controller="asm.s3.addSV.Controller" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="205.0" layoutY="33.0" prefHeight="40.0" prefWidth="206.0" text="Thêm Sinh Viên">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtName" layoutX="243.0" layoutY="126.0" promptText="Name..." />
+      <TextField fx:id="txtAge" layoutX="243.0" layoutY="185.0" promptText="Age..." />
+      <TextField fx:id="txtMark" layoutX="243.0" layoutY="253.0" promptText="Mark..." />
+      <Button onAction="#home" layoutX="83.0" layoutY="319.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="107.0" text="Back" />
+      <Button onAction="#input" layoutX="246.0" layoutY="319.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="107.0" text="ADD" />
+      <Button  layoutX="411.0" layoutY="319.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="107.0" text="Student_list" />
+      <Text layoutX="134.0" layoutY="147.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Name:" wrappingWidth="69.6708984375" />
+      <Text layoutX="137.0" layoutY="206.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Age:" wrappingWidth="69.6708984375" />
+      <Text layoutX="137.0" layoutY="274.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Mark" wrappingWidth="69.6708984375" />
+   </children>
+</Pane>

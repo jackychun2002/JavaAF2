@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="207.0" layoutY="14.0" prefHeight="35.0" prefWidth="174.0" text="Danh Sach SV">
+         <font>
+            <Font size="27.0" />
+         </font>
+      </Label>
+      <TableView layoutX="59.0" layoutY="74.0" prefHeight="252.0" prefWidth="483.0">
+        <columns>
+          <TableColumn prefWidth="225.0" text="Ten Sv" />
+          <TableColumn prefWidth="119.0" text="Tuổi" />
+            <TableColumn prefWidth="138.0" text="Điểm" />
+        </columns>
+      </TableView>
+      <Button layoutX="84.0" layoutY="347.0" mnemonicParsing="false" text="Button" />
+      <Button layoutX="457.0" layoutY="347.0" mnemonicParsing="false" text="Button" />
+   </children>
+</Pane>
