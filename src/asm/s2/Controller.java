@@ -1,5 +1,6 @@
 package asm.s2;
 
+import asm.s3.model.Student;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.fxml.Initializable;
