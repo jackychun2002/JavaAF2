@@ -43,7 +43,6 @@ public class Main {
 
         System.out.println("So dia chi");
         System.out.println(String.format("%-20s| %s", "Ten Lien Lac", "So Dien thoai"));
-        System.out.println("--------------------|-------------------");
         while (iterator.hasNext()) {
             Map.Entry pair = (Map.Entry) iterator.next();
             Contact contact = (Contact) pair.getValue();
@@ -59,7 +58,6 @@ public class Main {
         if (contact != null) {
             System.out.println();
                 System.out.println(String.format("%-20s| %s", "Ten lien he", "So dien thoai"));
-            System.out.println("--------------------|-------------------");
             System.out.println(String.format("%-20s| %s", contact.getName() , contact.getPhone()));
             System.out.println();
             return;
@@ -73,7 +71,6 @@ public class Main {
         String name = scanner.next();
         System.out.print("Hay Nhap So dien thoai: ");
         String phone = scanner.next();
-
         addressBook.addContact(name, phone);
         System.out.println();
     }
